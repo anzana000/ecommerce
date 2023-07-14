@@ -1,0 +1,128 @@
+.variantBox {
+  border-radius: 8px;
+  border: 1px solid #515151;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 1rem;
+  width: 250px;
+  &-varname {
+    font-size: 15px;
+    color: #575757;
+    text-transform: capitalize;
+    margin: 0;
+  }
+  &-icons {
+    .edit {
+      color: #626262;
+      font-size: 14px;
+      margin-right: 10px;
+    }
+    .dlt {
+      color: #ff6b6b;
+      font-size: 14px;
+    }
+  }
+  &-editoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      padding: 1rem;
+      width: 270px;
+      border-radius: 8px;
+      &-title {
+        display: flex;
+        justify-content: space-between;
+        h2 {
+          font-size: 14px;
+          color: #000;
+        }
+      }
+      &-h2 {
+        font-size: 16px;
+        color: #000;
+        font-weight: 600;
+        margin-top: 1rem;
+      }
+      input {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 5px;
+        outline: none;
+        &::placeholder {
+          font-size: 14px;
+        }
+      }
+      button {
+        border-radius: 8px;
+        background: #000;
+        color: #fff;
+        margin-top: 1rem;
+        outline: none;
+        border: none;
+        padding: 7px;
+        font-size: 14px;
+      }
+    }
+  }
+  &-deleteoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      padding: 1rem;
+      width: 300px;
+      border-radius: 8px;
+
+      h2 {
+        font-size: 14px;
+        color: #000;
+        font-weight: 600;
+      }
+
+      &-buttons {
+        button {
+          border-radius: 8px;
+          background-color: transparent;
+          margin-top: 1rem;
+          outline: none;
+          border: none;
+          padding: 7px 10px;
+          font-size: 14px;
+          &:nth-child(1) {
+            border: 1px solid red;
+            color: red;
+            margin-right: 10px;
+          }
+          &:nth-child(2) {
+            background-color: #000;
+            color: #fff;
+            width: 100px;
+          }
+        }
+      }
+    }
+  }
+}

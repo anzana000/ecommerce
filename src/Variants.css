@@ -1,0 +1,92 @@
+.variants {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0;
+}
+.variants-top h2 {
+  font-size: 1rem;
+}
+.variants-top p {
+  color: #787878;
+  font-size: 13px;
+}
+.variants-top button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #de3fce;
+  font-size: 1rem;
+}
+.variants-top button i {
+  margin-right: 1rem;
+}
+.variants-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.variants-overlay-content {
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 1rem;
+}
+.variants-overlay-content .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.variants-overlay-content .title h3 {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 500;
+}
+.variants-overlay-content .title i {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.variants-overlay-content h2 {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #2b2b2b;
+}
+.variants-overlay-content input {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+.variants-overlay-content input::-moz-placeholder {
+  font-size: 15px;
+  color: #787878;
+}
+.variants-overlay-content input::placeholder {
+  font-size: 15px;
+  color: #787878;
+}
+.variants-overlay-content button {
+  background-color: #000000;
+  color: #fff;
+  margin-top: 1rem;
+  width: 246px;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.variants-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 2rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}/*# sourceMappingURL=Variants.css.map */

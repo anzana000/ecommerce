@@ -1,0 +1,123 @@
+.variantBox {
+  border-radius: 8px;
+  border: 1px solid #515151;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 1rem;
+  width: 250px;
+}
+.variantBox-varname {
+  font-size: 15px;
+  color: #575757;
+  text-transform: capitalize;
+  margin: 0;
+}
+.variantBox-icons .edit {
+  color: #626262;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.variantBox-icons .dlt {
+  color: #ff6b6b;
+  font-size: 14px;
+}
+.variantBox-editoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.variantBox-editoverlay-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1rem;
+  width: 270px;
+  border-radius: 8px;
+}
+.variantBox-editoverlay-content-title {
+  display: flex;
+  justify-content: space-between;
+}
+.variantBox-editoverlay-content-title h2 {
+  font-size: 14px;
+  color: #000;
+}
+.variantBox-editoverlay-content-h2 {
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.variantBox-editoverlay-content input {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+}
+.variantBox-editoverlay-content input::-moz-placeholder {
+  font-size: 14px;
+}
+.variantBox-editoverlay-content input::placeholder {
+  font-size: 14px;
+}
+.variantBox-editoverlay-content button {
+  border-radius: 8px;
+  background: #000;
+  color: #fff;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  padding: 7px;
+  font-size: 14px;
+}
+.variantBox-deleteoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.variantBox-deleteoverlay-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1rem;
+  width: 300px;
+  border-radius: 8px;
+}
+.variantBox-deleteoverlay-content h2 {
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+.variantBox-deleteoverlay-content-buttons button {
+  border-radius: 8px;
+  background-color: transparent;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  padding: 7px 10px;
+  font-size: 14px;
+}
+.variantBox-deleteoverlay-content-buttons button:nth-child(1) {
+  border: 1px solid red;
+  color: red;
+  margin-right: 10px;
+}
+.variantBox-deleteoverlay-content-buttons button:nth-child(2) {
+  background-color: #000;
+  color: #fff;
+  width: 100px;
+}/*# sourceMappingURL=VariantBox.css.map */

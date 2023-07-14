@@ -1,0 +1,186 @@
+.variant {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 300px !important;
+  height: 200px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+.variant-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.variant-header h3 {
+  font-size: 15px;
+  font-weight: 500;
+}
+.variant-header .add-btn {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: #bc6600;
+  background-color: transparent;
+}
+.variant-header .edit-btn {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: #1058c5;
+  background-color: transparent;
+}
+.variant-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.variant-overlay-content {
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 1rem;
+}
+.variant-overlay-content .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.variant-overlay-content .title h3 {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 500;
+}
+.variant-overlay-content .title i {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.variant-overlay-content h2 {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #2b2b2b;
+}
+.variant-overlay-content input {
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
+.variant-overlay-content input::-moz-placeholder {
+  font-size: 15px;
+  color: #787878;
+}
+.variant-overlay-content input::placeholder {
+  font-size: 15px;
+  color: #787878;
+}
+.variant-overlay-content button {
+  background-color: #000000;
+  color: #fff;
+  margin-top: 1rem;
+  width: 246px;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.variant-editoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.variant-editoverlay-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1rem;
+  width: 270px;
+  border-radius: 8px;
+}
+.variant-editoverlay-content-title {
+  display: flex;
+  justify-content: space-between;
+}
+.variant-editoverlay-content-title h2 {
+  font-size: 15px;
+}
+.variant-editoverlay-content-edit {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.variant-editoverlay-content-edit h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.variant-editoverlay-content-edit input {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+}
+.variant-editoverlay-content-edit input::-moz-placeholder {
+  font-size: 14px;
+}
+.variant-editoverlay-content-edit input::placeholder {
+  font-size: 14px;
+}
+.variant-editoverlay-content-edit button {
+  border-radius: 8px;
+  background: #000;
+  color: #fff;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+}
+.variant-editoverlay-content-delete {
+  display: flex;
+  flex-direction: column;
+}
+.variant-editoverlay-content-delete h2 {
+  font-size: 14px;
+  color: #ff6262;
+  margin: 5px 0;
+}
+.variant-editoverlay-content-delete p {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.variant-editoverlay-content-delete input {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+}
+.variant-editoverlay-content-delete input::-moz-placeholder {
+  font-size: 14px;
+}
+.variant-editoverlay-content-delete input::placeholder {
+  font-size: 14px;
+}
+.variant-editoverlay-content-delete button {
+  border-radius: 8px;
+  background: #ffe3e3;
+  color: #ff4545;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+}/*# sourceMappingURL=Variant.css.map */
